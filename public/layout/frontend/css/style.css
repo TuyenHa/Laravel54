@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-weight:400px;
+}
+.header_middle .container .row{
+    margin-top:10px;
+}
+/* .header_bottom .navbar-default .navbar-nav > li:hover{
+background: #FE980F;
+color: #fff;
+} */
+.header_top .contactinfo .nav li a{
+  background: #fff;
+}
+.header_middle .cart i{
+font-size: 40px;
+color: red;
+margin-top:20px;
+padding-right: 70px; 
+}
+.search-form{
+margin-top:25px;    
+}
+.search-form input{
+    background-image:url('images/home/searchicon.png');
+    background-repeat: no-repeat;
+    background-position:330px; 
+}
+.header_bottom {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.navbar-collapse.collapse{
+  padding-left: 0;
+}
+.nav-color{
+    background: #EEEEEE;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: blue;
+}
+#slider {
+  padding-bottom: 45px;
+}
+
+.carousel-indicators li {
+  background: #C4C4BE;
+}
+.carousel-indicators li.active {
+      background: #FE80F;
+}
+.item {
+  padding-left: 100px;
+}
+.pricing {
+  position: absolute;
+  right: 40%;
+  top: 52%;
+}
+
+.girl {
+  margin-left: 0;
+}
+
+.item h1 {
+  color: #B4B1AB;
+  font-family: abel;
+  font-size: 48px;
+  margin-top: 115px;
+}
+
+.item h1 span {
+    color:#FE980F;
+}
+
+.item h2 {
+  color: #363432;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  margin-top: 10px;
+}
+
+.item  p {
+    color:#363432;
+    font-size:16px;
+    font-weight:300;
+    font-family: 'Roboto', sans-serif;
+}
+.get {
+  background: #3366FF;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 23px;
+}
+
+
+.item button:hover {
+  background: #FE980F;
+}
+
+.control-carousel {
+  position: absolute;
+  top: 50%;
+  font-size: 60px;
+  color: #C2C2C1;
+}
+
+.control-carousel:hover{
+  color: #FE980F ;
+}
+.right {
+  right: 0;
+}
+.left-sidebar,.list-products-new,.list-products-old{
+    margin-top:20px; 
+}
+.left-sidebar .list-group .list-group-item{
+  text-align: center;
+  border: 1px dashed #FE980F;
+  border-radius: 0px;
+}
+.left-sidebar .list-group .list-group-item:hover{
+  background: #EEEEEE;
+}
+.left-sidebar .title, .list-products-new .title,.list-products-old .title ,.left-sidebar-adv .title,.recommended_items .title{
+  color: #FE980F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index:3;
+  border-bottom:1px solid #EEEEEE;
+}
+.recommended_items .title{
+    margin-top:20px; 
+}
+footer{
+    background: #EEEEEE;
+    margin-top: 20px;
+}
+.footer-top{
+  border-bottom:1px solid #fff;
+  padding-bottom: 20px;
+}
+.footer-top .companyinfo h2{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-top .companyinfo{
+    font-size: 12px;
+    text-align: center;
+    color: blue;
+}
+.footer-bottom{
+    background: #D6D6D0;
+}
+.footer_info h2{
+  font-size: 16px;
+  color: #000;
+}
+.footer-middle .fb{
+  margin-top:20px; 
+}
+#recommended-item-carousel .carousel-inner .item {
+  padding-left: 0;
+}
+
+.recommended-item-control {
+  position: absolute;
+  top: 41%;
+}
+
+.recommended-item-control i {
+  background: none repeat scroll 0 0 #FE980F;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 4px 10px;
+}
+
+.recommended-item-control i:hover {
+  background: #ccccc6;
+}
+
+.recommended_items  h2 {
+}
+
+.our_partners{
+  overflow:hidden;
+}
+
+.our_partners ul {
+  background: #F7F7F0;
+  margin-bottom: 50px;
+}
+
+
+.our_partners ul li a:hover{
+    background:none;
+}
+
+.productinfo{
+ position:relative;
+}
+.productinfo .add-to-cart:hover {
+  background:#fff;
+  color: #FE980F;
+}
+.product-image-wrapper{
+    margin-top:10px; 
+}
+.productinfo h2{
+    color: red;
+    font-size: 18px;
+}
+.productinfo .add-to-cart{
+    background: #EEEEEE;
+    border-radius: 0px;
+}
+.productinfo .add-to-cart:hover{
+    background: red;
+    color: #fff;
+}
+.productinfo p{
+    color:#3333FF;
+}
+.new, .sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hot{
+   position: absolute;
+  top: 0;
+  left: 20px;
+}
+.saleoff{
+background: red;
+color: #fff;
+position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: 5px;
+}
+  }
+}
